@@ -33,6 +33,12 @@ fb {
 }
 
 yt {
+  font-size: 120%;
+  color: white;
+  background: #134F5C;
+}
+
+sc {
   color: white;
   background: #134F5C;
 }
