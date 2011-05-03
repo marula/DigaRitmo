@@ -19,17 +19,32 @@ header img {
 
 section {
   margin-top: 1em;
-  font-size: 120%;
+  font-size: 100%;
   padding: 20px;
   color: white;
   background: #134F5C;
 }
 
+smr{
+  width: 370px;
+  float: left;
+  color: white;
+  font-size: 120%;
+  background: #134F5C;
+}
+
+rght{
+  width: 290px;
+  float: right;
+  color: white;
+  font-size: 120%;
+  background: #134F5C;
+}
 
 fb {
   float: right;
   color: white;
-  background: #134F5C;
+  background: white;
 }
 
 yt {
@@ -40,13 +55,8 @@ yt {
 
 sc {
   color: white;
+  font-size: 100%;
   background: #134F5C;
-}
-
-homephoto{
-   float: right;
-   color: white;
-   background-image: url(../images/photo.png);
 }
 
 section h1 {
