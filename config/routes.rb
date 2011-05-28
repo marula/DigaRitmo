@@ -8,7 +8,13 @@ SampleApp::Application.routes.draw do
 
   match '/contact', :to => 'pages#contact'
   match '/about',   :to => 'pages#about'
-  match '/help',    :to => 'pages#help'
+  match '/shop',    :to => 'pages#shop'
+  match '/videos', :to => 'pages#videos'
+  match '/music',   :to => 'pages#music'
+  match '/pictures',    :to => 'pages#pictures'
+  match '/feeds', :to => 'pages#feeds'
+  match '/press',   :to => 'pages#press'
+  match '/events',    :to => 'pages#events'
   
   root :to => 'pages#home'
 

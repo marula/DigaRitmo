@@ -11,8 +11,32 @@ class PagesController < ApplicationController
     @title = "About"
   end
   
-  def help
-    @title = "Help"
+  def events
+    @title = "Events"
+  end
+  
+  def music
+    @title = "Music"
+  end
+  
+  def pictures
+    @title = "Pictures"
+  end
+  
+  def press
+    @title = "Press"
+  end
+  
+  def videos
+    @title = "Videos"
+  end
+  
+  def feeds
+    @title = "Feeds"
+  end
+  
+  def shop
+    @title = "Shop"
   end
 
 end
