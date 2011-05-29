@@ -29,7 +29,7 @@ module ApplicationHelper
 	 end
 	
 	def title
-		base_title = "digaritmo - speak rhythm"
+		base_title = "digaritmo - Speak Rhythm | Official Website"
 		if @title.nil?
 			base_title
 		else
