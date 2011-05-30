@@ -4,6 +4,54 @@ module ApplicationHelper
 		logo = image_tag("title.png", :alt => "digaritmo")
  	 end
 	 
+	 def home
+		home = image_tag("home.png", :alt => "Home")
+	 end
+	 
+	 def about
+		about = image_tag("about.png", :alt => "About Us")
+	 end
+	 
+	 def press
+		press = image_tag("press.png", :alt => "Press")
+	 end
+	 
+	 def photos
+		photos = image_tag("photos.png", :alt => "Photos")
+	 end
+	 
+	 def home
+		home = image_tag("home.png", :alt => "Home")
+	 end
+	 
+	 def home
+		home = image_tag("home.png", :alt => "Home")
+	 end
+	 
+	 def home
+		home = image_tag("home.png", :alt => "Home")
+	 end
+	 
+	 def home
+		home = image_tag("home.png", :alt => "Home")
+	 end
+	 
+	 def home
+		home = image_tag("home.png", :alt => "Home")
+	 end
+	 
+	 def home
+		home = image_tag("home.png", :alt => "Home")
+	 end
+	 
+	 def home
+		home = image_tag("home.png", :alt => "Home")
+	 end
+	 
+	 def home
+		home = image_tag("home.png", :alt => "Home")
+	 end
+	 
 	 def facebook
 		facebook = image_tag("facebook.png", :alt => "facebook")
 	 end
