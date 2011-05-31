@@ -7,49 +7,81 @@ module ApplicationHelper
 	 def home
 		home = image_tag("home.png", :alt => "Home")
 	 end
+
+	 def press
+		press = image_tag("press.png", :alt => "Press")
+	 end
 	 
 	 def about
 		about = image_tag("about.png", :alt => "About Us")
 	 end
 	 
-	 def press
-		press = image_tag("press.png", :alt => "Press")
+	 def feeds
+		feeds = image_tag("feeds.png", :alt => "Social Feeds")
+	 end
+	 
+	 def events
+		events = image_tag("events.png", :alt => "Live Events")
+	 end
+	 
+	 def music
+		music = image_tag("music.png", :alt => "Music")
+	 end
+	 
+	 def videos
+		videos = image_tag("videos.png", :alt => "Videos")
 	 end
 	 
 	 def photos
 		photos = image_tag("photos.png", :alt => "Photos")
 	 end
 	 
-	 def home
-		home = image_tag("home.png", :alt => "Home")
+	 def shop
+		shop = image_tag("shop.png", :alt => "Shop")
 	 end
 	 
-	 def home
-		home = image_tag("home.png", :alt => "Home")
+	 def contact
+		contact = image_tag("contact.png", :alt => "Contact Us")
 	 end
 	 
-	 def home
-		home = image_tag("home.png", :alt => "Home")
+	 def welcome
+		welcome = image_tag("welcome.png", :alt => "Welcome!")
 	 end
 	 
-	 def home
-		home = image_tag("home.png", :alt => "Home")
+	 def pressH
+		pressH = image_tag("pressH.png", :alt => "Press")
 	 end
 	 
-	 def home
-		home = image_tag("home.png", :alt => "Home")
+	 def aboutH
+		aboutH = image_tag("aboutH.png", :alt => "About Us")
 	 end
 	 
-	 def home
-		home = image_tag("home.png", :alt => "Home")
+	 def feedsH
+		feedsH = image_tag("feedsH.png", :alt => "Social Feeds")
+	 end
+	
+	 def eventsH
+		eventsH = image_tag("eventsH.png", :alt => "Live Events")
 	 end
 	 
-	 def home
-		home = image_tag("home.png", :alt => "Home")
+	 def musicH
+		musicH = image_tag("musicH.png", :alt => "Music")
 	 end
 	 
-	 def home
-		home = image_tag("home.png", :alt => "Home")
+	 def videosH
+		videosH = image_tag("videosH.png", :alt => "Videos")
+	 end
+	 
+	 def photosH
+		photosH = image_tag("photosH.png", :alt => "Photos")
+	 end
+	 
+	 def shopH
+		shopH = image_tag("shopH.png", :alt => "Coming Soon!")
+	 end
+	 
+	 def contactH
+		contactH = image_tag("contactH.png", :alt => "Contact Us")
 	 end
 	 
 	 def facebook
