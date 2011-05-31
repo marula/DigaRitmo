@@ -1,4 +1,6 @@
 SampleApp::Application.configure do
+
+  serve_static_assets = true
   # Settings specified here will take precedence over those in config/application.rb
 
   # The production environment is meant for finished, "live" apps.

@@ -48,40 +48,40 @@ module ApplicationHelper
 		welcome = image_tag("welcome.png", :alt => "Welcome!")
 	 end
 	 
-	 def pressH
-		pressH = image_tag("pressH.png", :alt => "Press")
+	 def pressh
+		pressh = image_tag("pressh.png", :alt => "Press")
 	 end
 	 
-	 def aboutH
-		aboutH = image_tag("aboutH.png", :alt => "About Us")
+	 def abouth
+		abouth = image_tag("abouth.png", :alt => "About Us")
 	 end
 	 
-	 def feedsH
-		feedsH = image_tag("feedsH.png", :alt => "Social Feeds")
+	 def feedsh
+		feedsH = image_tag("feedsh.png", :alt => "Social Feeds")
 	 end
 	
-	 def eventsH
-		eventsH = image_tag("eventsH.png", :alt => "Live Events")
+	 def eventsh
+		eventsh = image_tag("eventsh.png", :alt => "Live Events")
 	 end
 	 
-	 def musicH
-		musicH = image_tag("musicH.png", :alt => "Music")
+	 def musich
+		musich = image_tag("musicH.png", :alt => "Music")
 	 end
 	 
-	 def videosH
-		videosH = image_tag("videosH.png", :alt => "Videos")
+	 def videosh
+		videosh = image_tag("videosh.png", :alt => "Videos")
 	 end
 	 
-	 def photosH
-		photosH = image_tag("photosH.png", :alt => "Photos")
+	 def photosh
+		photosh = image_tag("photosh.png", :alt => "Photos")
 	 end
 	 
-	 def shopH
-		shopH = image_tag("shopH.png", :alt => "Coming Soon!")
+	 def shoph
+		shoph = image_tag("shoph.png", :alt => "Coming Soon!")
 	 end
 	 
-	 def contactH
-		contactH = image_tag("contactH.png", :alt => "Contact Us")
+	 def contacth
+		contacth = image_tag("contacth.png", :alt => "Contact Us")
 	 end
 	 
 	 def facebook
