@@ -4,15 +4,15 @@
 }
 
 body {
-    background-image: url(../images/back.png);
+    background-image: url(../images/backw.jpg);
+    background-position:top center;
 }
 
 header {
-  padding-top: 20px;
 }
 
 header img {
-  background:  #4c2818;
+  background:  #FFFFFF;
   -moz-border-radius:    10px;
   -webkit-border-radius: 10px;
   border-radius:         10px;  
@@ -22,31 +22,47 @@ section {
   margin-top: 1em;
   font-size: 100%;
   padding: 20px;
-  color: white;
-  background:  #4c2818;  
-  border-style:solid;
-  border-color:black;
-  border-width:5px;
+  color: #303030;
+  background:  #FFFFFF;  
 }
 
 smr{
-  color: white;
+  color: #303030;
   font-size: 120%;
   font-weight: bold;
-  background:  #4c2818;
+  background:  #FFFFFF;
+}
+
+smrCntr{
+  color: #303030;
+  font-size: 120%;
+  font-weight: bold;
+  background:  #FFFFFF;
+  position: relative;
+  left: 90px;
+}
+
+
+smrCntr2{
+  color: #303030;
+  font-size: 120%;
+  font-weight: bold;
+  background:  #FFFFFF;
+  position: relative;
+  left: 223px;
 }
 
 rght{
   width: 290px;
   float: right;
-  color: white;
+  color: #303030;
   font-size: 120%;
-  background:  #4c2818;
+  background:  #FFFFFF;
 }
 
 fb {
   float: left;
-  color: white;
+  color: #303030;
   background: white;
 }
 
@@ -57,49 +73,44 @@ like {
 
 tw {
   float: right;
-  color: white;  
-  background:  #4c2818;
+  color: #303030;  
+  background:  #FFFFFF;
 }
 
 yt {
   position: relative;
   left: 12px;
   font-size: 120%;
-  color:  #4c2818;
-  background:  #4c2818;
+  background:  #FFFFFF;
 }
 
 ph {
   position: relative;
   left: 12px;
   font-size: 50;
-  color:  #4c2818;
-  background:  #4c2818;
+  background:  #FFFFFF;
 }
 
-ph2 {
-float: right;
- /* position: relative;
-  left: 20px;
-  bottom: 120px;*/
-  color:  #4c2818;
-  background:  #4c2818;
+mail {
+  position: relative;
+  left: 133px;
+  background:  #FFFFFF;
 }
 
 sc {
-  color: #ffffff;
+  color: #303030;
   font-size: 140%;
-  background:  #4c2818;
+  background: #FFFFFF;
 }
 
 comments{
-  float: left;
-  background: #4c2818;
+  position: relative;
+  left: 210px;
+  background: #FFFFFF;
 }
 
 section h1 {
   font-size: 200%;
-  color: #fc600c;
 }
 
 poster {
@@ -114,14 +125,12 @@ bc {
 
 h2 {
    font-size: 300%;
-   color: #fc600c;
    position: relative;
    left: 355px;
 }
 
 h3 {
    font-size: 300%;
-   color: #fc600c;
    position: relative;
    left: 310px;
 }
@@ -131,31 +140,38 @@ h4 {
    left: 321px;
 }
 
+squarelogo {
+  float: left;  
+  float: top;
+}
+
+roundlogo {
+  float: right;  
+  float: top;
+}
+
 /* Links */
 
 a {
-  color: #fc600c;
+  color: #0072BC;
   text-decoration: none;
 }
 
 a:hover {
-  color: #fc600c;
+  color: #0072BC;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #fc600c;
+  color: #0072BC;
 }
 
 /* Navigation */
 
 nav {
-  background-color:  #4c2818;
+  background-color:  #FFFFFF;
   padding: 0 0.7em;
   white-space: nowrap;  
-  border-style:solid;
-  border-color:black;
-  border-width:5.5px;
 }
 
 nav ul {
@@ -207,22 +223,20 @@ a.signup_button {
 
 footer {
   text-align: center;
-  margin-top: 10px;
   width: 867px;
   margin-left: auto;
   margin-right: auto;  
-  padding-bottom: 20px;
+  padding-bottom: 9px;
 }
 
 
 footer nav {
   float: none;
-  padding: 0 0.7em;
 }
 
 footer nav ul a {
   float: none;
-  padding: 0 0.9em;
+  padding: 0 0.5em;
 }
 
 /* User show page */
