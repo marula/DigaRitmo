@@ -105,7 +105,13 @@ sc {
 
 comments{
   position: relative;
-  left: 210px;
+  left: 218px;
+  background: #FFFFFF;
+}
+
+comments2{
+  position: relative;
+  right: 0px;
   background: #FFFFFF;
 }
 
