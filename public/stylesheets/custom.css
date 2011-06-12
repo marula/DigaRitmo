@@ -6,6 +6,8 @@
 body {
     background-image: url(../images/backw.jpg);
     background-position:top center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 
 header {
@@ -122,6 +124,7 @@ section h1 {
 poster {
    position: relative;
    left: 110px;
+   font-size: 130%;
 }
 
 bc {
