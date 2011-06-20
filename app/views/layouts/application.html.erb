@@ -23,17 +23,22 @@
   </head>
   
   <body>
+ 
     <div class="container">
+    
+      <![if !IE]>
       <%= render 'layouts/header' %>
       <section class="round">
         <% flash.each do |key, value| %>
           <%= content_tag(:div, value, :class => "flash #{key}") %>
-        <% end %>
-        <%= yield %>
+        <% end %>       
+        <%= yield %>             
       </section>
       <%= render 'layouts/footer' %>
       <%= debug(params) if Rails.env.development? %>
-    </div>
+      <![endif]>
+            
+    </div>    
   </body>
   
 </html>
